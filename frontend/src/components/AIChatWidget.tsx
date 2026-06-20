@@ -43,7 +43,7 @@ export default function AIChatWidget() {
 
     try {
       const res = await fetch(
-    "http://localhost:5000/api/chat",
+    "https://my-portfolio-backend-8mdi.onrender.com/api/chat",
     {
       method: "POST",
       headers: {
