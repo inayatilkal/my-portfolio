@@ -181,7 +181,7 @@ export default function Hero() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/50 to-slate-950 z-0"></div>
 
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 flex flex-col items-center text-center">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-5 flex flex-col items-center text-center">
         {/* Avatar */}
         <div
           className={`mh-5 mb-2 mt-13 w-46 h-46 sm:w-60 sm:h-60 rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-blue-900 p-1 flex items-center justify-center transition-opacity duration-500 ${
