@@ -156,7 +156,7 @@ export default function Navbar() {
             <div
               className="
                 flex items-center gap-2
-                px-3 py-2
+                px-3 py-1
                 rounded-full
                 bg-slate-900/40
                 backdrop-blur-xl
@@ -167,7 +167,7 @@ export default function Navbar() {
               <button
                 onClick={() => scrollToSection("about")}
                 className="
-                  px-5 py-2
+                  px-5 py-1
                   rounded-full
                   text-sm font-medium
                   text-slate-300
