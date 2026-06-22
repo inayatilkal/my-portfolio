@@ -234,18 +234,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll */}
-      <div
-        className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce transition-opacity duration-500 ${
-          isFocusMode ? "opacity-20" : "opacity-70"
-        }`}
-      >
-        <span className="text-xs text-slate-500 font-medium tracking-widest uppercase mb-2">
-          Scroll
-        </span>
-
-        <ChevronDown className="w-5 h-5 text-slate-400" />
-      </div>
+      
     </section>
   );
 }
