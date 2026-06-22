@@ -184,7 +184,7 @@ export default function Hero() {
       <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-5 flex flex-col items-center text-center">
         {/* Avatar */}
         <div
-          className={`mh-5 mb-4 mt-16 w-46 h-46 sm:w-60 sm:h-60 rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-blue-900 p-1 flex items-center justify-center transition-opacity duration-500 ${
+          className={`mh-5 mb-4 mt-20 w-46 h-46 sm:w-60 sm:h-60 rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-blue-900 p-1 flex items-center justify-center transition-opacity duration-500 ${
             isFocusMode ? "opacity-20" : "opacity-100"
           }`}
         >
