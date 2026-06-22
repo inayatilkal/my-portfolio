@@ -81,7 +81,7 @@ export default function About() {
                   <BrainCircuit className="w-6 h-6" />
                 </div>
                 <div>
-                  <h6 className="font-semibold text-slate-200">AI-Powered Development</h4>
+                  <h5 className="font-semibold text-slate-200">AI-Powered Development</h4>
                   <p className="text-xs text-slate-400 mt-1">Focus Area</p>
                 </div>
               </div>
