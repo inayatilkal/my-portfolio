@@ -21,12 +21,12 @@ const projects = [
     title: 'Focus Flow',
     subtitle: 'Minimalist productivity & Pomodoro tracker',
     description: "A beautifully minimal productivity application centered around the Pomodoro technique. Engineered for focus: distraction-free UI, smooth session tracking, and task management that gets out of your way.",
-    tech: ["React", "Tailwind CSS", "TypeScript", "LocalStorage"],
+    tech: ["React", "Tailwind CSS", "TypeScript", "LocalStorage", "MongoDB", "Express"],
     icon: Clock,
     color: 'from-purple-600/20 to-purple-900/20',
     borderColor: 'border-purple-500/30',
     accentColor: 'text-purple-400',
-    link: null
+    link: 'https://focus-flow-vite.vercel.app/'
   },
   {
     id: 'aidriver',
